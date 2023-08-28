@@ -47,13 +47,6 @@ h6 {
   bottom: 0;
   top: 0;
 }
-
-@media only screen and (max-width: 425px) {
-  .modalWrappermain {
-    display: none;
-  }
-}
-
 .sideBarWrapperMobile {
   position: fixed;
   background-color: #f2f8fe;

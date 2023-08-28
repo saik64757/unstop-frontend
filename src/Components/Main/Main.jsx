@@ -121,6 +121,7 @@ function Main({ sideBarMobile, setsideBarMobile }) {
           />
         </div>
       </div>
+
       {isOpen && <Modal setisOpen={setisOpen} />}
 
       <div className={Styles.content}>
@@ -186,7 +187,6 @@ function Main({ sideBarMobile, setsideBarMobile }) {
           </div>
         </div>
       </div>
-
       <div className={Styles.AssignmentCardsWrapper}>
         <div className={Styles.AssesmentSubtitle}>My Assessment</div>
         <div className={Styles.AssignmentCards}>

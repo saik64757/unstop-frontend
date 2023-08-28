@@ -5,10 +5,11 @@ function Modal({ setisOpen }) {
     <div className="modalWrappermain">
       <div className={Styles.ModalWrapper}>
         <div className={Styles.Modalhead}>
+          <div className={Styles.titleMobile}>Sub-Section Details</div>
           <div className={Styles.title}> Create new assessment</div>
           <img
             src={require("../../Assets/CloseButton.png")}
-            alt=""
+            alt="Button Close"
             onClick={() => setisOpen((prev) => !prev)}
           />
         </div>
@@ -17,6 +18,7 @@ function Modal({ setisOpen }) {
             <label className={Styles.inputLable} htmlFor="nameofAssesment">
               Name of assessment
             </label>
+
             <input className={Styles.formInputs} placeholder="Type here" />
           </div>
           <div className={Styles.inputfromitem}>
@@ -24,9 +26,7 @@ function Modal({ setisOpen }) {
               Purpose of the test is
             </label>
             <select name="purpose" className={Styles.formInputsSelect}>
-              <option className={Styles.SelectOptions} defaultValue disabled>
-                Select
-              </option>
+              <option className={Styles.SelectOptions}>Select</option>
               <option className={Styles.SelectOptions}>Option 1</option>
             </select>
           </div>
@@ -35,9 +35,7 @@ function Modal({ setisOpen }) {
               Description
             </label>
             <select name="purpose" className={Styles.formInputsSelect}>
-              <option className={Styles.SelectOptions} defaultValue disabled>
-                Select
-              </option>
+              <option className={Styles.SelectOptions}>Select</option>
               <option className={Styles.SelectOptions}>Option 1</option>
             </select>
           </div>

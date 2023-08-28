@@ -18,6 +18,7 @@
   padding: 20px;
   border-bottom: 1px solid #dadce0;
 }
+
 .title {
   font-size: 20px;
   font-weight: 600;
@@ -60,7 +61,7 @@
 }
 
 .formInputsSelect {
-  width: 400px;
+  width: 525px;
   height: 50px;
   padding: 15px;
   border-radius: 8px;
@@ -127,4 +128,67 @@
   width: 531px;
   height: 40px;
   border-radius: 8px;
+}
+.titleMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .inputForm {
+    padding: 10px;
+  }
+  .ModalWrapper {
+    width: 375px;
+    position: absolute;
+    top: 20%;
+  }
+  .formInputs {
+    width: 345px;
+  }
+  .inputLable {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .inputfromitem {
+    margin: 5px 0px;
+  }
+  .formInputsSelect {
+    width: 345px;
+  }
+  .Skillview {
+    width: 345px;
+    height: auto;
+  }
+  .skillPill {
+    width: 152px;
+    height: auto;
+    padding: 6px 8px 6px 10px;
+    border-radius: 22px;
+    gap: 2px;
+    font-size: 12px;
+  }
+  .SkillPilsWrapper {
+    height: auto;
+  }
+  .SkillTypehere {
+    height: 20px;
+    margin: 5px 5px;
+    font-size: 12px;
+    color: #8da4bf;
+  }
+  .buttonsave {
+    width: 345px;
+  }
+  .title {
+    display: none;
+  }
+  .titleMobile {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    color: #1c4980;
+  }
 }

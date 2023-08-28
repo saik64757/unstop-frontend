@@ -25,6 +25,10 @@
   padding-right: 20px;
 }
 
+h2 {
+  color: #0073e6;
+}
+
 hr {
   border: none;
   border-top: 3px solid #0073e6;
@@ -228,7 +232,7 @@ img {
     display: flex;
   }
   .AssesmentDetails {
-    margin: 0;
+    margin: 5px;
   }
   .AssesmetOverviewMobile {
     display: none;
