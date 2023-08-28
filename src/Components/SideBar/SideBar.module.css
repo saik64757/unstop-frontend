@@ -1,0 +1,71 @@
+.sideBarWrapper {
+  background-color: #ffffff;
+  width: 140px;
+}
+
+.sideBarContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1c4980;
+}
+
+.sibarOptions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 90px;
+  height: 70px;
+  margin: 10px;
+}
+
+.sideBarContent img {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+.sideBarSection1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sideBarSection2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sideBarSection2 button {
+  font-size: 10px;
+  font-weight: 500;
+  color: #d63500;
+  border-radius: 20px;
+  background-color: #fbebea;
+  border: 1px solid #d63500;
+}
+
+.selectedOption {
+  background-color: #e5f1fc;
+  border: 2px solid #0073e6;
+  border-radius: 10px;
+}
+
+.breakLine {
+  border: none;
+  border-top: 1px dotted #bacbd5;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 60%;
+}
+
+@media screen and (max-width: 425px) {
+  .sideBarWrapper {
+    display: none;
+  }
+}

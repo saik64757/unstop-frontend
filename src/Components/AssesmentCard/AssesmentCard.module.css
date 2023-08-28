@@ -1,0 +1,147 @@
+.cardWrapper {
+  width: 388px;
+  height: 209px;
+  padding: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.SuitcaseLogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
+.threeDost {
+  width: 30px;
+  height: 30px;
+}
+
+.SectionLogoButton {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.AssesmentTitle {
+  color: #1c4980;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.Vectorlogo {
+  width: 11.67px;
+  height: 12.83px;
+}
+
+.sectionDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.AssesmentTime {
+  display: flex;
+  gap: 10px;
+}
+.AssesmentTime p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+}
+.AssesmentCalender {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.AssesmentCalender span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8da4bf;
+  margin-top: 2px;
+}
+
+.BreakLine {
+  border-top: 2px dotted #dadce0;
+  height: 2px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.assesmentDuration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.assesmentDurationSetting {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+}
+.linkButton {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #1c4980;
+  border: 1px solid #1c4980;
+  padding: 5px;
+  border-radius: 20px;
+}
+.linkButton img {
+  height: 16px;
+  width: 16px;
+}
+
+.usersProfile {
+  background-color: rgb(119, 232, 140);
+  color: white;
+  width: 27px;
+  border-radius: 60px;
+  padding: 3px;
+}
+
+.sectionButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sectionDetailsWrappermobile {
+  display: none;
+}
+
+.AllusersProfile span {
+  margin-left: -10px;
+}
+
+@media only screen and (max-width: 425px) {
+  .sectionDetailsWrappermobile {
+    display: block;
+  }
+  .sectionDetailsWrapper {
+    display: none;
+  }
+  .cardWrapper {
+    height: 158px;
+  }
+}

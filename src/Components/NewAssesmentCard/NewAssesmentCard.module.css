@@ -1,0 +1,37 @@
+.newCardWrapper {
+  width: 388px;
+  height: 209px;
+  padding: 16px;
+  border: 1px dotted #1c4980;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #dadce0;
+}
+
+.newCardWrapper div {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1c4980;
+}
+
+.Addimage {
+  width: 70px;
+  height: 70px;
+}
+
+.newCardWrapper p {
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1c4980;
+}

@@ -1,0 +1,130 @@
+.ModalWrapper {
+  width: 591px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+
+  max-height: 100%;
+  overflow-y: scroll;
+  transform: translate(-50%);
+}
+
+.Modalhead {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #dadce0;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1c4980;
+}
+
+.Modalhead img {
+  width: 17.5px;
+  height: 17.5px;
+}
+.inputForm {
+  padding: 25px;
+}
+.inputfromitem {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+.inputLable {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1c4980;
+  margin-bottom: 20px;
+}
+.formInputs {
+  width: 531px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  gap: 10px;
+}
+
+.formInputsSelect {
+  width: 400px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  gap: 10px;
+}
+
+.Skillview {
+  border: 1px solid #dadce0;
+  width: 531px;
+  height: 151px;
+  border-radius: 10px;
+}
+
+.SkillPilsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  height: 102px;
+  padding: 10px;
+  border-bottom: 0.1px solid black;
+}
+
+.skillPill {
+  max-width: 200px;
+  height: 30px;
+  padding: 3px 8px 6px 10px;
+  border-radius: 22px;
+  background-color: #ddedff;
+  color: #1c4980;
+  font-weight: 500;
+}
+
+.skillPill img {
+  width: 10.5px;
+  display: inline;
+  height: 10.5px;
+  margin-left: 10px;
+}
+
+.SkillTypehere {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  height: 50px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #1c4980;
+  margin: 15px 8px 6px 10px;
+}
+.buttonWrapper {
+  height: 80px;
+}
+.buttonsave {
+  color: white;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #0073e6;
+  width: 531px;
+  height: 40px;
+  border-radius: 8px;
+}

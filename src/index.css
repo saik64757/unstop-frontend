@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.modalWrappermain {
+  position: fixed;
+  background-color: rgba(189, 189, 189, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.sideBarWrapperMobile {
+  position: fixed;
+  background-color: #f2f8fe;
+  left: 0;
+  right: 20;
+  bottom: 0;
+  top: 0;
+  width: 300px;
+}

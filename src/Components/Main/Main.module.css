@@ -1,0 +1,243 @@
+.LayoutWrapper {
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.LayoutWrapper header {
+  height: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #dde5ea;
+}
+.Title {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+  padding-left: 25px;
+  border-right: 2px solid #dadce0;
+  padding-right: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #0073e6;
+  color: #fff;
+  background-color: #fff;
+  margin-top: 25px;
+  height: 1px;
+  width: 100%;
+}
+.subTitle {
+  color: #0073e6;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.94px;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content > div {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+}
+
+.AssesmentDetails {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  height: Hug (114px);
+  border-radius: 12px;
+  border: 1px;
+  border: 1px solid #dde5ea;
+  border-radius: 15px;
+  height: 114px;
+  padding: 15px;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  .AssesmentDetails {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+.AssesmentTitle {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+  margin-bottom: 15px;
+}
+.AssesmentSection {
+  padding-right: 30px;
+  /* border-right: 1px solid #dde5ea; */
+  font-size: 14px;
+}
+
+.AssesmentSectionDetails {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.AssesmentSectionDetails span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.AssesmentSubtitle {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+  margin-bottom: 20px;
+}
+.AssignmentCardsWrapper {
+  margin: 20px;
+}
+.AssignmentCards {
+  display: flex;
+  gap: 40px;
+}
+
+.mobileSideBaricon {
+  display: none;
+}
+
+.assignmentHeaderMobile {
+  display: none !important;
+}
+.AssesmentOptionsWrapper {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .AssignmentCards {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .LayoutWrapper {
+    margin: 0px;
+  }
+  .item4 {
+    order: -2;
+  }
+  .AssesmentSectionDetails {
+    padding: 0;
+  }
+  .AssesmentSection {
+    padding: 0;
+    margin: 10px 10px;
+  }
+  .AssesmentDetails {
+    padding: 0;
+    gap: 5px;
+  }
+  .mobileSideBaricon {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .AssignmentCards {
+    gap: 10px;
+  }
+  .assignmentHeaderWeb {
+    display: none !important;
+  }
+  .assignmentHeaderMobile {
+    display: flex !important;
+
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+
+  .Title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #0073e6;
+    height: 56px;
+    margin-top: 37px;
+    border: none;
+  }
+  .subTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1c4980;
+    margin: 0;
+  }
+  .AssesmentOptionsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .AssesmentTitlemobile {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #1c4980;
+  }
+  .content {
+    display: none;
+  }
+  .AssesmentIcons {
+    display: flex;
+  }
+  .AssesmentDetails {
+    margin: 0;
+  }
+  .AssesmetOverviewMobile {
+    display: none;
+    padding: 0px;
+  }
+  .AssesmentSectionDetails {
+    gap: 5px;
+  }
+  .AssesmentSubtitle {
+    display: none;
+  }
+}

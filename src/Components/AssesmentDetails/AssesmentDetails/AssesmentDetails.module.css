@@ -1,0 +1,53 @@
+.AssesmentDetailswrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 10px;
+
+  padding-right: 20px;
+}
+.AssesmentNumns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.AddtionValue {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+  font-size: 20px;
+}
+.addtionSum {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #05c165;
+  margin-left: 5px;
+}
+
+.subTitle {
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c4980;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 425px) {
+  .AssesmentDetailswrapper {
+    padding: 0;
+    margin: 2px;
+  }
+}

@@ -1,0 +1,55 @@
+.sideBarContentMobile {
+  margin-top: 20px;
+  padding: 15px;
+  font: 14px !important;
+  font-weight: 600;
+  color: #0073e6;
+}
+
+.menuLayout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1c4980;
+  font-weight: 500;
+  gap: 50px;
+}
+
+.menuLayout img {
+  width: 14px;
+  height: 14px;
+}
+
+.menuSelection {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.menuSelection img {
+  width: 15px;
+  height: 15px;
+}
+
+.sideBarSection2Mobile {
+  font-size: 10px;
+  font-weight: 500;
+  color: #d63500;
+  border-radius: 20px;
+  background-color: #fbebea;
+  border: 1px solid #d63500;
+}
+
+.SelectedMenuOption {
+  border: 2px solid #0073e6;
+  border-radius: 15px;
+  background-color: #e5f1fc;
+}
+
+.RoundStatusStyles {
+  display: flex;
+  gap: 10px;
+}
