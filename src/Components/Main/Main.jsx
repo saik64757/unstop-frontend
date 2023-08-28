@@ -49,7 +49,7 @@ function Main({ sideBarMobile, setsideBarMobile }) {
                   src={require("../../Assets/equals.png")}
                   alt="Equals img"
                 />
-                <span>34</span>
+                <span>36</span>
               </div>
             </div>
             <div className={`${Styles.AssesmentSection} ${Styles.item2}`}>
